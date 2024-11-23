@@ -8,7 +8,7 @@ const getNavLinkClass = ({ isActive }) => {
 
 export default function AuthNav() {
   return (
-    <nav className="">
+    <nav className={css.container}>
       <NavLink to="/" className={getNavLinkClass}>
         Home
       </NavLink>

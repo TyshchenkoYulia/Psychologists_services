@@ -1,0 +1,18 @@
+.link {
+  color: var(--main-black-color);
+  text-decoration: none;
+}
+
+/* .link:hover,
+.link:focus {
+  color: yellow;
+} */
+
+/* .active {
+  color: red;
+} */
+
+.container {
+  display: flex;
+  gap: 40px;
+}
