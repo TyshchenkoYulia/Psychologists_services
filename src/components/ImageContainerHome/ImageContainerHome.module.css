@@ -1,0 +1,67 @@
+.img {
+  width: 464px;
+  height: 526px;
+}
+.imgWrapper {
+  position: relative;
+  display: inline-block;
+}
+.orangeIcon {
+  position: absolute;
+  top: 38px;
+  right: -44px;
+}
+
+.iconWrapper {
+  position: absolute;
+  top: 185px;
+  left: -39px;
+}
+.greenIcon {
+  position: relative;
+  display: inline-block;
+}
+.questionIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--main-white-color);
+}
+.experiensedWrapper {
+  display: flex;
+  width: 311px;
+  border-radius: 20px;
+  background-color: var(--main-blue-color);
+  position: absolute;
+  top: 333px;
+  left: -101px;
+}
+
+.checkIconWrapper {
+  border-radius: 13px;
+  background-color: var(--main-white-color);
+  width: 54px;
+  height: 54px;
+  margin: 32px 16px 32px 32px;
+}
+.checkIcon {
+  color: var(--main-blue-color);
+  padding: 12px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #fbfbfb80;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  margin: 32px 32px 32px 0;
+}
+.number {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  color: var(--main-white-color);
+}

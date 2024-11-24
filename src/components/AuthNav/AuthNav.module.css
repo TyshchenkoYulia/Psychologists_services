@@ -3,14 +3,22 @@
   text-decoration: none;
 }
 
-/* .link:hover,
-.link:focus {
-  color: yellow;
-} */
+.link {
+  text-decoration: none;
+  position: relative;
+}
 
-/* .active {
-  color: red;
-} */
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: var(--main-blue-color);
+  border-radius: 50%;
+}
 
 .container {
   display: flex;

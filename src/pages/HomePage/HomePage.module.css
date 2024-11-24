@@ -1,0 +1,52 @@
+.container {
+  padding: 78px 128px;
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+.wrapper {
+  max-width: 595px;
+}
+.title {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 82px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.titleSpan {
+  font-style: italic;
+  color: var(--main-blue-color);
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  align-items: center;
+  padding: 18px 50px;
+  gap: 18px;
+  border-radius: 30px;
+  border: none;
+  background-color: var(--main-blue-color);
+  color: var(--main-white-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--main-blue-active-color);
+}
