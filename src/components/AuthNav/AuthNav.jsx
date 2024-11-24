@@ -8,16 +8,21 @@ const getNavLinkClass = ({ isActive }) => {
 
 export default function AuthNav() {
   return (
-    <nav className={css.container}>
-      <NavLink to="/" className={getNavLinkClass}>
-        Home
-      </NavLink>
-      <NavLink to="/psychologists" className={getNavLinkClass}>
-        Psychologists
-      </NavLink>
-      <NavLink to="/favorites" className={getNavLinkClass}>
-        Favorites
-      </NavLink>
-    </nav>
+    <div className={css.container}>
+      <p className={css.logo}>
+        <span className={css.logoSpan}>psychologists.</span>services
+      </p>
+      <nav className={css.nav}>
+        <NavLink to="/" className={getNavLinkClass}>
+          Home
+        </NavLink>
+        <NavLink to="/psychologists" className={getNavLinkClass}>
+          Psychologists
+        </NavLink>
+        <NavLink to="/favorites" className={getNavLinkClass}>
+          Favorites
+        </NavLink>
+      </nav>
+    </div>
   );
 }
