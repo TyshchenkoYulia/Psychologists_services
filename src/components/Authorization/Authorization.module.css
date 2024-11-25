@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+
+  margin-left: auto;
+  gap: 8px;
+}
+.btn {
+  padding: 14px 40px;
+  border: 1px solid var(--main-grey-color);
+  border-radius: 30px;
+  background-color: var(--main-white-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: var(--main-black-color);
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--main-blue-color);
+  color: var(--main-white-color);
+}
