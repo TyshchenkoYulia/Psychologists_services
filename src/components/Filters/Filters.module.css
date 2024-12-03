@@ -1,0 +1,41 @@
+.filtersContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: var(--main-dark-grey-color);
+}
+
+.filterOption {
+  width: 226px;
+  padding: 16px;
+  border-radius: 14px;
+  background-color: var(--main-bright-white-color);
+  color: var(--main-dark-grey-color);
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  /* outline: none;
+  cursor: pointer; */
+}
+
+.filterOption:hover {
+  background-color: var(--main-blue-color);
+  color: var(--main-white-color);
+  border: none;
+}
+
+.option {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #191a154d;
+  background-color: var(--main-bright-white-color);
+}

@@ -4,7 +4,7 @@ import PsychologistsPage from "../../pages/PsychologistsPage/PsychologistsPage";
 import FavoritesPage from "../../pages/FavoritesPages/FavoritesPages";
 import NotFound from "../NotFound/NotFound";
 import AuthNav from "../AuthNav/AuthNav";
-import "./App.module.css";
+// import css from "./App.module.css";
 
 export default function App() {
   return (

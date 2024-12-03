@@ -4,7 +4,9 @@
   --main-blue-active-color: #255ee8;
   --main-orange-color: #ffc531;
   --main-grey-color: #191a151a;
+  --main-dark-grey-color: #8a8a89;
   --main-white-color: #fbfbfb;
+  --main-bright-white-color: #ffffff;
 
   --animation: 200ms cubic-bezier(0.4, 0, 0.2, 1);
 

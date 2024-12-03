@@ -1,6 +1,7 @@
 import ImageContainerHome from "../../components/ImageContainerHome/ImageContainerHome";
 import { GoArrowUpRight } from "react-icons/go";
 import css from "./HomePage.module.css";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
@@ -14,10 +15,13 @@ export default function HomePage() {
           We help you to reveal your potential, overcome challenges and find a
           guide in your own life with the help of our experienced psychologists.
         </p>
-        <button className={css.btn}>
-          Get started
-          <GoArrowUpRight size={18} />
-        </button>
+
+        <Link className={css.link} to="/psychologists">
+          <button className={css.btn}>
+            Get started
+            <GoArrowUpRight size={18} />
+          </button>
+        </Link>
       </div>
       <ImageContainerHome />
     </div>
