@@ -13,8 +13,8 @@ import { allPsychologiesReducer } from "./AllPsychologies/slice";
 
 export const store = configureStore({
   reducer: {
-    allTrucks: allPsychologiesReducer,
-    // truck: psychologyReducer,
+    allPsychologies: allPsychologiesReducer,
+    // psychology: psychologyReducer,
     // favorite: persistFavoriteReducer,
     // filter: filtersReducer,
     // pagination: paginationReducer,
