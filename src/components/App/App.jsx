@@ -4,11 +4,11 @@ import PsychologistsPage from "../../pages/PsychologistsPage/PsychologistsPage";
 import FavoritesPage from "../../pages/FavoritesPages/FavoritesPages";
 import NotFound from "../NotFound/NotFound";
 import AuthNav from "../AuthNav/AuthNav";
-// import css from "./App.module.css";
+import css from "./App.module.css";
 
 export default function App() {
   return (
-    <>
+    <div className={css.container}>
       <AuthNav />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -16,6 +16,6 @@ export default function App() {
         <Route path="/favorites" element={<FavoritesPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </>
+    </div>
   );
 }

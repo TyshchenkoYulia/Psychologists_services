@@ -1,11 +1,10 @@
 .container {
-  padding: 0 128px;
+  padding: 78px 128px;
   display: flex;
   align-items: center;
   max-width: 1440px;
   justify-content: space-between;
   margin: 0 auto;
-  /* gap: 125px; */
 }
 .wrapper {
   max-width: 595px;
